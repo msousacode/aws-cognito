@@ -46,6 +46,7 @@
 			<artifactId>nimbus-jose-jwt</artifactId>
 			<version>${jose-jwt.version}</version>
 		</dependency>
+
 	</dependencies>
 
 	<build>
