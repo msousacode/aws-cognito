@@ -211,3 +211,7 @@ private AwsCognitoJwtAuthFilter awsCognitoJwtAuthenticationFilter;
 
 .addFilterBefore(awsCognitoJwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class)
 ```
+
+### Step 7: Config Cognito in AWS
+
+watch my series in youtube : https://www.youtube.com/watch?v=VdSw8S9HzNA
