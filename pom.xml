@@ -16,6 +16,7 @@
 	<properties>
 		<java.version>17</java.version>
 		<sdk-cognitoidp.version>1.12.441</sdk-cognitoidp.version>
+		<jose-jwt.version>9.31</jose-jwt.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -34,13 +35,17 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-cognitoidp -->
 		<dependency>
 			<groupId>com.amazonaws</groupId>
 			<artifactId>aws-java-sdk-cognitoidp</artifactId>
 			<version>${sdk-cognitoidp.version}</version>
 		</dependency>
 
+		<dependency>
+			<groupId>com.nimbusds</groupId>
+			<artifactId>nimbus-jose-jwt</artifactId>
+			<version>${jose-jwt.version}</version>
+		</dependency>
 	</dependencies>
 
 	<build>
